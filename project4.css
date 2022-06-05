@@ -1,0 +1,75 @@
+.app {
+    background-color: aliceblue;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+}
+
+.header-left {
+    float: left;
+    width: 20%;
+    right: 15vh;
+    margin-left: 10vw;
+}
+
+.header-right {
+    float: right;
+    width: 20%;
+    right: 15vh;
+    margin-right: 10vw;
+}
+
+.item-header {
+    display: inline-flex;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.slogan {
+    display: flex;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    padding: 16vh;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png?fbclid=IwAR0ckCTorrmk15ypx3g4P1m7VFne9VSN0D9xEU1zZv3oj4xxgiTbdhSZG8Q);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.banner-p {
+    color: white;
+}
+
+.decord {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5vh;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+}
+
+.img-item {
+    width: 33vw;
+}
+
+.footer {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
